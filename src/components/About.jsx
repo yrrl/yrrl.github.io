@@ -19,11 +19,7 @@ function About() {
             <p className="text-lg text-gray-300 mb-4">
               I am a passionate intern at QRIO IT Solutions, dedicated to learning and growing in the field of web development...
             </p>
-            <div className="mt-6 flex flex-wrap gap-3">
-              <span className="bg-gray-800 text-blue-400 px-4 py-2 rounded-full border border-blue-500">React</span>
-              <span className="bg-gray-800 text-blue-400 px-4 py-2 rounded-full border border-blue-500">JavaScript</span>
-              <span className="bg-gray-800 text-blue-400 px-4 py-2 rounded-full border border-blue-500">Tailwind CSS</span>
-            </div>
+           
           </div>
         </div>
 

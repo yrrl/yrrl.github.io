@@ -1,9 +1,14 @@
+import vission from './vission.jpg'
+import hobbies from './hobby.jpg'
+import future from './future.jpg'
+
+
 function Projects() {
   const sections = [
     {
       title: "Vision & Goals",
       description: "In 5 years, I aim to be a senior full-stack developer leading innovative projects. I'm passionate about creating technology that makes a positive impact.",
-      image: "https://placehold.co/600x400/2563eb/ffffff/png?text=Vision+2029",
+      image: vission,
       items: ["Lead Developer", "Tech Mentor", "Open Source Contributor"],
       link: "#"
     },
@@ -11,7 +16,7 @@ function Projects() {
     {
       title: "Hobbies & Interests",
       description: "When I'm not coding, you'll find me exploring these passions that fuel my creativity and problem-solving skills.",
-      image: "https://placehold.co/600x400/2563eb/ffffff/png?text=Hobbies",
+      image: hobbies,
       items: ["Reading", "Online Games", "Watching Youtube"],
       link: "#"
     },
@@ -19,7 +24,7 @@ function Projects() {
     {
       title: "Future Projects",
       description: "Planning to develop innovative solutions that combine my technical skills with creative problem-solving approaches.",
-      image: "https://placehold.co/600x400/2563eb/ffffff/png?text=Projects",
+      image: future,
       items: ["Web Apps", "Mobile Development", "AI Integration"],
       link: "#"
     }
