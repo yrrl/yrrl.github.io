@@ -12,11 +12,29 @@ function Hero() {
     >
       <div className="text-center text-white z-10">
         <h1 className="text-6xl font-bold mb-4 text-blue-400">John Lerry Fule</h1>
-        <h2 className="text-2xl mb-6 text-gray-300">Intern at QRIO IT Solutions</h2>
-        <button className="bg-gray-800 text-blue-400 px-6 py-3 rounded-full font-semibold 
-          hover:bg-gray-700 transition duration-300 border border-blue-500">
-          View My Work
-        </button>
+        <h2 className="text-2xl mb-6 text-gray-300">
+          <span className="typewriter">Intern at QRIO IT Solutions</span>
+        </h2>
+        <style jsx>{`
+          .typewriter {
+            display: inline-block;
+            overflow: hidden;
+            white-space: nowrap;
+            border-right: 0.15em solid orange;
+            animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+          }
+
+          @keyframes typing {
+            from { width: 0; }
+            to { width: 65%; }
+          }
+
+          @keyframes blink-caret {
+            from, to { border-color: transparent; }
+            50% { border-color: orange; }
+          }
+        `}</style>
+        
       </div>
     </div>
   )
